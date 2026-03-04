@@ -101,9 +101,9 @@ Example:
 
 ##▶️ How to Run
   * Compile
-              * g++ main.cpp -o atm
+                g++ main.cpp -o atm
   * Execute
-              * ./atm
+                ./atm
 
 (On Windows: atm.exe)
 
