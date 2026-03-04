@@ -74,9 +74,18 @@ Concepts Used:
     * Loads data at startup
 
     * Writes updates back to file
+## 🏗️ Project Structure
 
-
-##💾 Data Storage Format
+```text
+OS-Scheduling-Algorithm-Simulator/
+|
+├── main.cpp
+├── parser.h
+├── sample_input.txt
+├── sample_output.txt
+└── README.md
+```
+## Data Storage Format
 
 Accounts are stored in CSV format:
 
