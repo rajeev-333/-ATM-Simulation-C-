@@ -3,7 +3,7 @@
 A secure, console-based ATM simulation built using Object-Oriented Programming in C++.
 Designed to replicate real-world ATM functionality with authentication, transaction management, and persistent storage.
 
-  ##Project Overview
+  ## Project Overview
 
 This project simulates the working of a real ATM machine.
 It supports secure user authentication, core banking operations, and persistent account storage using file handling.
@@ -26,7 +26,7 @@ The system is designed with scalability and security logic in mind, demonstratin
 
     Modular and maintainable code structure
 
-##🛠 Tech Stack
+##  Tech Stack
 
 Language: C++
 
@@ -49,13 +49,13 @@ Concepts Used:
 
 * Handles:
 
-    Deposit
+    * Deposit
 
-    Withdraw
+    * Withdraw
 
-    Mobile update
+    * Mobile update
 
-    Account lock/unlock logic
+    * Account lock/unlock logic
 
 * Maintains transaction data
 
@@ -74,7 +74,7 @@ Concepts Used:
     * Loads data at startup
 
     * Writes updates back to file
-## 🏗️ Project Structure
+##  Project Structure
 
 ```text
 OS-Scheduling-Algorithm-Simulator/
@@ -96,7 +96,7 @@ Example:
 987654321,John,1234,50000,9876543210
 
 
-##🔐 Security Features
+## 🔐 Security Features
 
 * Masked PIN entry using _getch()
 
@@ -108,7 +108,7 @@ Example:
 
 * Balance validation checks
 
-##▶️ How to Run
+## ▶️ How to Run
   * Compile
                 g++ atm.cpp -o atm_exe
   * Execute
