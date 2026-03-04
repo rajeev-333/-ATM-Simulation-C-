@@ -45,9 +45,9 @@ Concepts Used:
 
 1. ATM Class
 
-   *Stores account details (Account No, Name, PIN, Balance, Mobile No)
+   * Stores account details (Account No, Name, PIN, Balance, Mobile No)
 
-   *Handles:
+   * Handles:
 
       Deposit
 
@@ -57,7 +57,7 @@ Concepts Used:
 
       Account lock/unlock logic
 
- *Maintains transaction data
+ * Maintains transaction data
 
 2. Authentication Module
 
