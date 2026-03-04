@@ -45,35 +45,35 @@ Concepts Used:
 
 1. ATM Class
 
- Stores account details (Account No, Name, PIN, Balance, Mobile No)
+   *Stores account details (Account No, Name, PIN, Balance, Mobile No)
 
- Handles:
+   *Handles:
 
-    Deposit
+      Deposit
 
-    Withdraw
+      Withdraw
 
-    Mobile update
+      Mobile update
 
-    Account lock/unlock logic
+      Account lock/unlock logic
 
- Maintains transaction data
+ *Maintains transaction data
 
 2. Authentication Module
 
-    Validates Account Number & PIN
+    * Validates Account Number & PIN
 
-    Tracks incorrect attempts
+    * Tracks incorrect attempts
 
-    Locks account after threshold limit
+    * Locks account after threshold limit
 
 3. Persistence Layer
 
-    Stores account records in structured text format
+    * Stores account records in structured text format
 
-    Loads data at startup
+    * Loads data at startup
 
-    Writes updates back to file
+    * Writes updates back to file
 
 
 ##💾 Data Storage Format
