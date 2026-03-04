@@ -100,10 +100,10 @@ Example:
 * Balance validation checks
 
 ##▶️ How to Run
-  Compile
-               g++ main.cpp -o atm
-  Execute
-               ./atm
+  * Compile
+              * g++ main.cpp -o atm
+  * Execute
+              * ./atm
 
 (On Windows: atm.exe)
 
