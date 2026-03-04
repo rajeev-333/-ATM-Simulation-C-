@@ -1,16 +1,16 @@
-🏧 ATM Simulator System (C++)
+# ATM Simulator System (C++)
 
 A secure, console-based ATM simulation built using Object-Oriented Programming in C++.
 Designed to replicate real-world ATM functionality with authentication, transaction management, and persistent storage.
 
-  Project Overview
+  ##Project Overview
 
 This project simulates the working of a real ATM machine.
 It supports secure user authentication, core banking operations, and persistent account storage using file handling.
 
 The system is designed with scalability and security logic in mind, demonstrating clean code structure and practical OOP implementation.
 
-🎯 Key Highlights
+## Key Highlights
 
     Secure Login with masked PIN input
 
@@ -26,83 +26,80 @@ The system is designed with scalability and security logic in mind, demonstratin
 
     Modular and maintainable code structure
 
-🛠 Tech Stack
+##🛠 Tech Stack
 
 Language: C++
 
 Concepts Used:
 
-Object-Oriented Programming (Encapsulation, Abstraction)
+    Object-Oriented Programming (Encapsulation, Abstraction)
 
-File Handling (ifstream, ofstream)
+    File Handling (ifstream, ofstream)
 
-STL Containers (vector, string)
+    STL Containers (vector, string)
 
-Input validation & security logic
+    Input validation & security logic
 
-🏗 System Architecture
+## System Architecture
 🔹 Core Components
 
 1. ATM Class
 
-Stores account details (Account No, Name, PIN, Balance, Mobile No)
+ Stores account details (Account No, Name, PIN, Balance, Mobile No)
 
-Handles:
+ Handles:
 
-Deposit
+    Deposit
 
-Withdraw
+    Withdraw
 
-Mobile update
+    Mobile update
 
-Account lock/unlock logic
+    Account lock/unlock logic
 
-Maintains transaction data
+ Maintains transaction data
 
 2. Authentication Module
 
-Validates Account Number & PIN
+    Validates Account Number & PIN
 
-Tracks incorrect attempts
+    Tracks incorrect attempts
 
-Locks account after threshold limit
+    Locks account after threshold limit
 
 3. Persistence Layer
 
-Stores account records in structured text format
+    Stores account records in structured text format
 
-Loads data at startup
+    Loads data at startup
 
-Writes updates back to file
+    Writes updates back to file
 
-📂 Project Structure
-ATM-Simulator/
-│
-├── main.cpp
-├── accounts.txt
-├── README.md
-💾 Data Storage Format
+
+##💾 Data Storage Format
 
 Accounts are stored in CSV format:
 
-AccountNo,Name,PIN,Balance,MobileNo
+    AccountNo,Name,PIN,Balance,MobileNo
 
 Example:
 
 987654321,John,1234,50000,9876543210
-🔐 Security Features
 
-Masked PIN entry using _getch()
 
-3-attempt login restriction
+##🔐 Security Features
 
-Temporary account lock mechanism
+* Masked PIN entry using _getch()
 
-Withdrawal limit enforcement
+* 3-attempt login restriction
 
-Balance validation checks
+* Temporary account lock mechanism
 
-▶️ How to Run
+* Withdrawal limit enforcement
+
+* Balance validation checks
+
+##▶️ How to Run
 Compile
 g++ main.cpp -o atm
 Execute
@@ -110,29 +107,29 @@ Execute
 
 (On Windows: atm.exe)
 
-📈 Real-World Simulation Aspects
+## Real-World Simulation Aspects
 
 This project models:
 
-Authentication flow
+  -Authentication flow
 
-Session-based user interaction
+  -Session-based user interaction
 
-Persistent banking data
+  -Persistent banking data
 
-Business rule enforcement
+  -Business rule enforcement
 
-Basic brute-force attack prevention
+  -Basic brute-force attack prevention
 
 
- What This Project Demonstrates
+ ## What This Project Demonstrates
 
-Strong understanding of OOP principles
+  -Strong understanding of OOP principles
 
-Clean modular program structure
+  -Clean modular program structure
 
-Practical file handling implementation
+  -Practical file handling implementation
 
-Security-focused design thinking
+  -Security-focused design thinking
 
-Ability to simulate real-world systems
+  -Ability to simulate real-world systems
